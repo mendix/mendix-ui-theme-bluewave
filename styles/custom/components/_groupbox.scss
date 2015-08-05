@@ -1,0 +1,134 @@
+/*
+* Mendix Documentation
+* Special styles for presenting components
+*/
+
+
+/*
+* Groupbox
+*
+* Default Mendix Groupboxes
+*/
+.mx-groupbox {
+	> .mx-groupbox-header {
+		border: none;
+
+		.mx-groupbox-collapse-icon {
+			
+		}
+	}
+	> .mx-groupbox-body {
+		background-color: $color-groupbox-white;
+		border: none;
+  	}
+  	.mx-groupbox-header + .mx-groupbox-body {
+  		
+	}
+
+	&.collapsed > .mx-groupbox-header {
+		
+	}
+}
+
+
+
+/*
+* Groupbox Colors
+*
+* 
+*/
+.mx-groupbox  {
+	// Color variations 
+	&.groupbox-default {
+		 
+	}
+	&.groupbox-primary {
+		
+	}
+	&.groupbox-inverse {
+		
+	}
+	// Success appears as green
+	&.groupbox-success {
+		
+	}
+	// Info appears as blue-green
+	&.groupbox-info {
+		
+	}
+	// Warning appears as orange
+	&.groupbox-warning {
+		
+	}
+	// Danger and error appear as red
+	&.groupbox-danger {
+		
+	}
+	// white appears as full white	
+	&.groupbox-white {
+		
+	}
+	&.groupbox-transparent  {
+		
+		> .mx-groupbox-header {
+			
+		}
+		> .mx-groupbox-body {
+			
+  		}
+	}
+}
+
+
+/*
+* Groupbox Callouts
+*
+* Default Mendix Groupboxes rendered as (Bootstrap) callouts
+*/
+.mx-groupbox {	
+	&.groupbox-callout {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+	    	
+	  	}
+	  	.mx-groupbox-header + .mx-groupbox-body {
+	  		
+	  	}
+	}
+	&.groupbox-callout-info {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+			color: $color-info-dark;
+		}
+		> .mx-groupbox-header {
+			color: $color-callout-info;
+		}
+	}
+	&.groupbox-callout-success {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+			color: $color-success-dark;
+		}
+		> .mx-groupbox-header {
+			color: $color-callout-success;
+		}
+	}
+	&.groupbox-callout-warning {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+			color: $color-warning-dark;
+		}
+		> .mx-groupbox-header {
+			color: $color-callout-warning;
+		}
+	}
+	&.groupbox-callout-danger {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+			color: $color-danger-dark;
+		}
+		> .mx-groupbox-header {
+			color: $color-callout-danger;
+		}
+	}
+}

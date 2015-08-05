@@ -1,0 +1,88 @@
+/*
+* Mendix Documentation
+* Special styles for presenting components
+*/
+
+
+/*
+* Modals
+*
+* Default Mendix Modals. Modals are streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults
+*/
+.modal-dialog {
+	
+	.modal-content {
+		background-color: #2f5881;
+
+		.modal-header {
+			border-bottom: 1px solid $color-text-white-hint;
+
+			h4 {
+
+			}
+			.close {
+
+			}
+		}
+		.modal-body {
+
+		}
+		.modal-footer {
+
+		}
+	}
+}
+
+
+/*
+* Modals
+*
+* Default Mendix Modal
+*/
+.mx-window {
+
+	// If popup direct child is a dataview it gets the class mx-window-view
+	&.mx-window-view .mx-window-body {
+
+		// Dataview in popup
+		> .mx-dataview > .mx-dataview-content, 
+		> .mx-placeholder > .mx-dataview > .mx-dataview-content {
+
+		}
+		> .mx-dataview > .mx-dataview-controls, 
+		> .mx-placeholder > .mx-dataview > .mx-dataview-controls {
+
+		}
+	}
+}
+
+
+
+/*
+* Modals
+*
+* Default Mendix Login Modal
+*/
+.mx-login {
+	.modal-body {
+
+	}
+	.modal-content {
+		input {
+
+			&:focus {
+
+			}
+		}
+	}
+	.modal-header,
+	.modal-footer {
+
+	}
+	button {
+
+	}
+	h4 {
+
+	}
+}

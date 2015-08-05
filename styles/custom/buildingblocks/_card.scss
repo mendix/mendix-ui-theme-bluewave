@@ -1,0 +1,58 @@
+/*
+* Mendix Documentation
+* Special styles for presenting profilecard building block
+*/
+
+
+/*
+* Card
+*
+* 
+*/
+
+.card {
+	background: rgba(0,0,0,0.3);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	border: none;
+	
+}
+
+/* Title + button + border below title and button */
+.card-header-action {
+
+	.card-title {
+		
+	}
+	.btn {
+		
+	}
+}
+.card-details {
+	
+}
+.card-title {
+	
+}
+.card-subtitle {
+	font-weight: 300;
+	color: $color-text-white;
+
+}
+.card-annotation {
+
+}
+.card-icon {
+
+	.glyphicon {
+
+	}
+}
+.card-image {
+	
+}
+.card-user-image {
+	
+}
+.card-link {
+	
+}
