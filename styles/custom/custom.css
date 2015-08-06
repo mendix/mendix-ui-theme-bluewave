@@ -743,16 +743,6 @@ h1, h2, h3, h4, h5, h6,
 *
 * 
 */
-/* line 1, components/_mendixprofilemenu.scss */
-.mx-profilemenu-button-placeholder {
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-/* line 1, components/_mendixappswitcher.scss */
-.mx-appswitcher-button-placeholder {
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
-}
-
 /*
 * Mendix Documentation
 * Special styles for presenting components
