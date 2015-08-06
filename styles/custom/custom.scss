@@ -1,7 +1,6 @@
-@import "custom-variables";
+@import "compass";
 
-// Modules and Variables
-@import "../lib/lib";
+@import "custom-variables";
 
 // Base
 @import "base/base.scss";

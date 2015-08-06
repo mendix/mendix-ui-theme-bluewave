@@ -23,11 +23,11 @@
   	border-bottom: 1px solid $color-text-white-hint;
 
 	> .mx-layoutcontainer-wrapper {
-		.mx-navbar{
+		.mx-navbar {
 			background-color: transparent;
-			ul.nav{
-				li{
-					a{
+			ul.nav {
+				li {
+					a {
 						//border-bottom: 1px solid $color-text-white-hint;
 					}
 				}
@@ -37,14 +37,15 @@
 	}
 
 	.toggle-btn {
-		@extend .btn-white;
+		border-color: #FFF;
+		color: #FFF;
 	}
 
 	// SSO widgets
 	.navbar-right {
 		min-height: $minimalheight-topbar;
 		.mx-appswitcher-button-placeholder,
-		.mx-profilemenu-button-placeholder  {
+		.mx-profilemenu-button-placeholder {
 			display: inline-block;
 			border-left: 1px solid $color-text-white-hint;
 			width: $minimalheight-topbar;
@@ -73,7 +74,6 @@
 }
 
 .region-sidebar {
-	background: rgba(0,0,0,0.3);
 	border-right: 1px solid $color-text-white-hint;
 	
 	> .mx-layoutcontainer-wrapper {

@@ -14,8 +14,8 @@
 	margin-bottom: 10px;
 }
 .multilevel-list {
-	@extend .listview-lined;
-	@extend .listview-hover;
+	// @extend .listview-lined;
+	// @extend .listview-hover;
 	.mx-listview-list {
 		border-left: 1px solid $color-text-white-hint;
 		border-right: 1px solid $color-text-white-hint;
@@ -64,9 +64,9 @@
 	margin: 10px 0;
 }
 .multilevel-grid {
-	 @extend .datagrid-hover;
-	 @extend .datagrid-fullsearch;
-	 @extend .datagrid-transparent;
+	 // @extend .datagrid-hover;
+	 // @extend .datagrid-fullsearch;
+	 // @extend .datagrid-transparent;
 
 	.mx-datagrid-head-table th {
 		border-style: none;
