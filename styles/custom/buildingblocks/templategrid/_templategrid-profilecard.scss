@@ -1,19 +1,12 @@
-/*
-* Mendix Documentation
-* Special styles for presenting profilecard building block
-*/
+/* ==========================================================================
+   Templategrid Profile Card
 
-
-/*
-* Templategrid Profile Card
-*
-* Profile card styled for templategrid
-*/
-
+   Profile card styled for templategrid
+========================================================================== */
 .templategrid-profilecard {
 	background: rgba(0,0,0,0.3);
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-	border: none;
+	border-style: none;
 
 	.templategrid-profilecard-contentwrapper {
 		
@@ -36,6 +29,5 @@
 	}
 	.templategrid-profilecard-subtitle {
 		color: $color-text-white-secondary;
-		
 	}
 }

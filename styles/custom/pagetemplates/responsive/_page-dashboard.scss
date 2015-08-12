@@ -1,58 +1,34 @@
-/*
-* Mendix Page Template Documentation
-* Special styles for presenting Page Template Dashboard
-*/
+/* ==========================================================================
+   Special styles for presenting Page Template Dashboard
+========================================================================== */
 .page-dashboard {
-	background-color: none ;
+	background-color: none;
 	.chartjs-node {
 		margin-top: 30px;
 	}
 }
-
-
-/*
-* Mendix Page Template Documentation
-* Special styles for presenting Page Template Dashboard Default
-*/
 .page-dashboard-default {
 	.card {
 		min-height: 345px;
 	}
 }
-
-
-/*
-* Mendix Page Template Documentation
-* Special styles for presenting Page Template Dashboard My Tasks
-*/
 .page-dashboard-mytasks {
 	.card {
 		min-height: 320px;
 	}
 }
-
-
-/*
-* Mendix Page Template Documentation
-* Special styles for presenting Page Template Dashboard Actions
-*/
 .page-dashboard-actions {
 
 }
+.page-dashboard-actions-tasks {
 
-
-/*
-* Mendix Page Template Documentation
-* Special styles for presenting Page Template Dashboard Page Header
-*/
+}
 .page-dashboard-pageheader {
-
 	.dashboardcard {
 		border-radius: 0;
 		border: none;
 		margin: 0;
 	}
-
 	.sectionheader {
 		border: none;
 	}

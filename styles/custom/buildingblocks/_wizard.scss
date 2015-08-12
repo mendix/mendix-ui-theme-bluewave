@@ -1,21 +1,13 @@
-/*
-* Mendix Documentation
-* Special styles for presenting profilecard building block
-*/
+/* ==========================================================================
+   Wizard
 
-
-/*
-* Wizard
-*
-* Styling for Wizard (Steps/Numbers)
-*/
-
+   Styling for Wizard (Steps/Numbers)
+========================================================================== */
 .wizard {
 
 	/* Wizard line between steps */
 	&:before {
 		background-color: rgba(255, 255, 255, 0.15);
-		
 	}
 }
 .wizard-step {
@@ -46,7 +38,6 @@
 .profile-phone .wizard {
 	&:before {
 		background-color: rgba(255, 255, 255, 0.15);
-		
 	}
 	.wizard-step-number {
 

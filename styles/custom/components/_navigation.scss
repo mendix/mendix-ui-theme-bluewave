@@ -1,14 +1,8 @@
-/*
-* Mendix Documentation
-* Special styles for presenting components
-*/
+/* ==========================================================================
+   Navigation
 
-
-/*
-* Navigation
-*
-* Default Mendix Navigation Bar
-*/
+   Default Mendix Navigation Bar
+========================================================================== */
 .mx-navbar {
 
 	ul.nav { 
@@ -158,11 +152,11 @@
 }
 
 
-/*
-* Navigation
-*
-* Default Mendix Simple Menu Bar
-*/
+/* ==========================================================================
+   Navigation
+
+   Default Mendix Navigation Tree
+========================================================================== */
 .mx-menubar {
 	background: rgba(0,0,0,0.3);
 
@@ -201,6 +195,7 @@
 		
 	}
 }
+
 /* Vertical variation specifics */
 .mx-menubar-vertical {
 	

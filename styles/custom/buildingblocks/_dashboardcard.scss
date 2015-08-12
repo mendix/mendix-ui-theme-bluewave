@@ -1,25 +1,13 @@
-/*
-* Mendix Documentation
-* Special styles for presenting profilecard building block
-*/
-
-
-/*
-* Dashboard Card
-*
-* 
-*/
-
+/* ==========================================================================
+   Dashboard Card
+========================================================================== */
 .dashboardcard {
 	background: rgba(0,0,0,0.3);
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 	border: none;
-	
-
 }
 .dashboardcard-title {
 	color: $color-text-white-secondary;
-	
 }
 .dashboardcard-subtitle {
 
@@ -32,4 +20,17 @@
 	.dashboardcard {
 
 	}
+}
+
+.dashboardcard {
+
+}
+.dashboardcard-title {
+	
+}
+.dashboardcard-subtitle {
+
+}
+.dashboardcard-link {
+	
 }

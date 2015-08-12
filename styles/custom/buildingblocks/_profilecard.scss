@@ -1,15 +1,6 @@
-/*
-* Mendix Documentation
-* Special styles for presenting profilecard building block
-*/
-
-
-/*
-* Profile Card
-*
-* 
-*/
-
+/* ==========================================================================
+   Profile Card
+========================================================================== */
 .profilecard {
 
 	.profilecard-contentwrapper {
@@ -33,14 +24,12 @@
 .profilecard-img {
 	background: rgba(0,0,0,0.3);
 	border: none;
-
 }
 .profilecard-title {
 
 }
 .profilecard-subtitle {
 	color: $color-text-white-secondary;
-	
 }
 .pageheader .profilecard {
 	

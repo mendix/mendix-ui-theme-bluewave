@@ -1,14 +1,8 @@
-/*
-* Mendix Documentation
-* Special styles for presenting components
-*/
+/* ==========================================================================
+   Groupbox
 
-
-/*
-* Groupbox
-*
-* Default Mendix Groupboxes
-*/
+   Default Mendix Groupboxes
+========================================================================== */
 .mx-groupbox {
 	> .mx-groupbox-header {
 		border: none;
@@ -31,60 +25,11 @@
 }
 
 
+/* ==========================================================================
+   Groupbox Callouts
 
-/*
-* Groupbox Colors
-*
-* 
-*/
-.mx-groupbox  {
-	// Color variations 
-	&.groupbox-default {
-		 
-	}
-	&.groupbox-primary {
-		
-	}
-	&.groupbox-inverse {
-		
-	}
-	// Success appears as green
-	&.groupbox-success {
-		
-	}
-	// Info appears as blue-green
-	&.groupbox-info {
-		
-	}
-	// Warning appears as orange
-	&.groupbox-warning {
-		
-	}
-	// Danger and error appear as red
-	&.groupbox-danger {
-		
-	}
-	// white appears as full white	
-	&.groupbox-white {
-		
-	}
-	&.groupbox-transparent  {
-		
-		> .mx-groupbox-header {
-			
-		}
-		> .mx-groupbox-body {
-			
-  		}
-	}
-}
-
-
-/*
-* Groupbox Callouts
-*
-* Default Mendix Groupboxes rendered as (Bootstrap) callouts
-*/
+   Default Mendix Groupboxes rendered as (Bootstrap) callouts
+========================================================================== */
 .mx-groupbox {	
 	&.groupbox-callout {
 		> .mx-groupbox-header, 

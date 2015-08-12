@@ -1,23 +1,8 @@
-/*
-* Base Layout
-*
-* Default layout settings
-*/
+/* ==========================================================================
+   Regions
 
-.mx-layoutcontainer-wrapper {
-	
-}
-.mx-layoutcontainer-wrapper.mx-layoutcontainer-nested {
-	
-}
-
-
-/*
-* Regions
-*
-* Used for navigation layouts
-*/
-
+   Used for navigation layouts
+========================================================================== */
 .region-topbar {
 	background: rgba(0,0,0,0.3);
   	border-bottom: 1px solid $color-text-white-hint;
@@ -28,17 +13,16 @@
 			ul.nav {
 				li {
 					a {
-						//border-bottom: 1px solid $color-text-white-hint;
+
 					}
 				}
 			}
 		}
-		
 	}
 
 	.toggle-btn {
 		border-color: #FFF;
-		color: #FFF;
+		color: $color-text-white;
 	}
 
 	// SSO widgets
@@ -99,11 +83,11 @@
 
 	}
 	a {
-		color: #fff;
+		color: $color-text-white;
 
 		&:hover,
 		&:focus {
-			color: #fff;
+			color: $color-text-white;
 			
 		}
 	}

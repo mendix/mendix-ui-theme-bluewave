@@ -1,15 +1,8 @@
-/*
-* Mendix Documentation
-* Special styles for presenting profilecard building block
-*/
+/* ==========================================================================
+   Dashboard Stats
 
-
-/*
-* Dashboard Stats
-*
-* Used in dashboard
-*/
-
+   Used in dashboard
+========================================================================== */
 .dashboardstat {
 
 	@media (max-width: $screen-md) {
@@ -35,7 +28,6 @@
 
 	label {
 		font-weight: 300;
-
 	}
 
 	@media (max-width: $screen-md) {
@@ -44,7 +36,7 @@
 }
 .dashboardstat-number {
 	font-size: 65px;
-	color: #fff;
+	color: $color-text-white;
 
 	label {
 		font-weight: 300;
