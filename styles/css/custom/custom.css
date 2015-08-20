@@ -750,28 +750,28 @@ h1, h2, h3, h4, h5, h6,
 }
 .mx-groupbox.groupbox-callout-info > .mx-groupbox-header,
 .mx-groupbox.groupbox-callout-info > .mx-groupbox-body {
-  color: #669daf;
+  color: shade(#8AD4ED, 26);
 }
 .mx-groupbox.groupbox-callout-info > .mx-groupbox-header {
   color: #8AD4ED;
 }
 .mx-groupbox.groupbox-callout-success > .mx-groupbox-header,
 .mx-groupbox.groupbox-callout-success > .mx-groupbox-body {
-  color: #688f3d;
+  color: shade(#8CC152, 26);
 }
 .mx-groupbox.groupbox-callout-success > .mx-groupbox-header {
   color: #8CC152;
 }
 .mx-groupbox.groupbox-callout-warning > .mx-groupbox-header,
 .mx-groupbox.groupbox-callout-warning > .mx-groupbox-body {
-  color: #b68a31;
+  color: shade(#F6BB42, 26);
 }
 .mx-groupbox.groupbox-callout-warning > .mx-groupbox-header {
   color: #F6BB42;
 }
 .mx-groupbox.groupbox-callout-danger > .mx-groupbox-header,
 .mx-groupbox.groupbox-callout-danger > .mx-groupbox-body {
-  color: #a13d3a;
+  color: shade(#D9534F, 26);
 }
 .mx-groupbox.groupbox-callout-danger > .mx-groupbox-header {
   color: #D9534F;
@@ -1495,8 +1495,8 @@ body .mx-header .mx-title {
 
 .wizard-step-number-visited {
   color: #FFF;
-  border-color: #9bdaf0;
-  background-color: #9bdaf0;
+  border-color: tint(#59C2E6, 40);
+  background-color: tint(#59C2E6, 40);
 }
 
 .wizard-step-title {
@@ -1618,3 +1618,5 @@ body .mx-header .mx-title {
   border-left: 4px solid #59C2E6;
   background-color: #eee !important;
 }
+
+/*# sourceMappingURL=custom.css.map */
