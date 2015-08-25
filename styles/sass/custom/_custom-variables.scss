@@ -38,7 +38,7 @@ $color-layout-bg-secondary:				#EFF4F7;
 
 //== Layout settings
 // Topbar 
-$color-topbar-bg:						$color-inverse;
+$color-topbar-bg:						rgba(0,0,0,0.3);
 $minimalheight-topbar:					80px;
 // Sidebar 
 $color-sidebar-bg:						rgba(0,0,0,0.3);
@@ -437,17 +437,17 @@ $color-navtopbar-border:				$color-navtopbar-bg-hover;
 //##
 
 // Text Color
-$color-tab-text-active: 				$color-text-black;
-$color-tab-text: 						$color-text-black-secondary;
-$color-tab-lined-text-active:			$color-primary;
+$color-tab-text-active: 				$color-text-white;//$color-text-black;
+$color-tab-text: 						$color-text-white;//$color-text-black-secondary;
+$color-tab-lined-text-active:			$color-text-white;//$color-primary;
 
 // Border Color
-$color-tab-border:						$color-border-default;	
+$color-tab-border:						$color-text-white-hint; //$color-border-default;	
 $color-tab-lined-border:				$color-primary;	
 
 // Background Color
-$color-tab-bg-hover: 					lighten($color-tab-border,5);
-$color-tab-bg-active:					$color-primary;
+$color-tab-bg-hover: 					rgba(0,0,0,0.1);//lighten($color-tab-border,5);
+$color-tab-bg-active:					rgba(0,0,0,0.1);//$color-primary;
 
 
 

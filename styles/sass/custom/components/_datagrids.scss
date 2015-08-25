@@ -6,10 +6,11 @@
 .mx-datagrid {
 	/* Styles here */
 	.mx-datagrid-head-table {
-		background: rgba(0, 0, 0, 0.3);
-		text-transform: uppercase;
+		
 
 		th {
+			background: rgba(0, 0, 0, 0.3);
+			text-transform: uppercase;
 			border-bottom-width: 0px;
 			border-color: rgba(255, 255, 255, 0.15);
 		}

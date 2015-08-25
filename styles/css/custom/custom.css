@@ -82,11 +82,9 @@ a:hover {
 .mx-datagrid {
   /* Styles here */
 }
-.mx-datagrid .mx-datagrid-head-table {
+.mx-datagrid .mx-datagrid-head-table th {
   background: rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
-}
-.mx-datagrid .mx-datagrid-head-table th {
   border-bottom-width: 0px;
   border-color: rgba(255, 255, 255, 0.15);
 }
@@ -516,9 +514,6 @@ textarea.form-control {
 .mx-tabcontainer {
   /* Styles here */
 }
-.mx-tabcontainer .mx-tabcontainer-tabs {
-  border-color: rgba(255, 255, 255, 0.3);
-}
 .mx-tabcontainer .mx-tabcontainer-tabs > li > a {
   color: #FFF;
 }
@@ -549,7 +544,12 @@ textarea.form-control {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li > a:hover, .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li > a:focus {
-  background-color: #59C2E6;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li.active > a,
+.tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:hover,
+.tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:focus {
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* ==========================================================================
@@ -783,7 +783,6 @@ h1, h2, h3, h4, h5, h6,
    Used for navigation layouts
 ========================================================================== */
 .region-topbar {
-  background: rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .region-topbar > .mx-layoutcontainer-wrapper .mx-navbar {

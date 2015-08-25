@@ -7,7 +7,7 @@
 .mx-tabcontainer {
 	/* Styles here */
 	.mx-tabcontainer-tabs {
-		border-color: $color-text-white-hint;
+		
 
 		> li > a {
 			color: $color-text-white;
@@ -56,6 +56,7 @@
 		> li.active > a,
 		> li.active > a:hover,
 		> li.active > a:focus  {
+			border: 1px solid $color-text-white-hint;
 			
 
 		}
