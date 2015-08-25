@@ -185,15 +185,15 @@ $color-label:							$color-text-black-secondary;
 $font-weight-label:						$font-weight-normal;			 
 
 // Input Color
-$color-input-bg:						#FFF;
-$color-input-bg-focus:					#FFF;
-$color-input-bg-disabled:				$gray-lighter;
-$color-input-text: 						$color-text-black-secondary;
-$color-input-text-focus:				$color-text-black-secondary;
-$color-input-text-disabled:				$color-text-black-secondary;
+$color-input-bg:						rgba(0, 0, 0, 0.1);//#FFF;
+$color-input-bg-focus:					rgba(0, 0, 0, 0.2);//#FFF;
+$color-input-bg-disabled:				rgba(238, 238, 238, 0.09);//$gray-lighter;
+$color-input-text: 						$color-text-white;//$color-text-black-secondary;
+$color-input-text-focus:				$color-text-white;//$color-text-black-secondary;
+$color-input-text-disabled:				$color-text-white;//$color-text-black-secondary;
 $color-input-placeholder-text:			$gray-light;
-$color-input-border:					$gray-primary;
-$color-input-border-focus:				$color-primary;	
+$color-input-border:					$color-text-white-hint;//$gray-primary;
+$color-input-border-focus:				$color-text-white-hint;//$color-primary;	
 
 // Input Height
 $input-height:							33px;
@@ -287,18 +287,18 @@ $color-grid-paging-text: 				$gray-light;
 $color-grid-paging-text-hover:			$color-primary;
 
 // Border Color
-$color-grid-border: 					$color-border-default;
+$color-grid-border: 					rgba(255, 255, 255, 0.15);//$color-border-default;
 
 // Background Color
-$color-grid-bg:							#FFF;
-$color-grid-bg-header:					transparent; // Grid Headers
-$color-grid-bg-hover: 					shade($color-primary-lighter,3);
+$color-grid-bg:							transparent;//#FFF;
+$color-grid-bg-header:					rgba(0, 0, 0, 0.3);//transparent; // Grid Headers
+$color-grid-bg-hover: 					rgba(0, 0, 0, 0.3);//shade($color-primary-lighter,3);
 $color-grid-bg-selected: 				$color-primary;	
-$color-grid-bg-selected-hover: 			shade($color-primary-lighter,3);
-$color-grid-text-selected:				$font-color-base;
+$color-grid-bg-selected-hover: 			rgba(45, 178, 223, 0.6);//shade($color-primary-lighter,3);
+$color-grid-text-selected:				$color-text-white;//$font-color-base;
 
 // Striped 
-$color-grid-bg-striped: 				lighten($color-grid-border,5);
+$color-grid-bg-striped: 				rgba(255, 255, 255, 0.15);//lighten($color-grid-border,5);
 
 // Footer
 $color-grid-footer-bg: 					$gray-primary;
