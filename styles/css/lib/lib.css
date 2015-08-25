@@ -198,19 +198,19 @@ div[tabindex] {
   padding: 7px 8px;
   width: 100%;
   height: 33px;
-  border: 1px solid #DDD;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  background-color: #FFF;
+  background-color: rgba(0, 0, 0, 0.1);
   background-image: none;
-  color: #0a0a0a;
+  color: #FFF;
   vertical-align: middle;
   font-size: 14px;
   line-height: 1.42857;
 }
 
 .form-control:focus, .readonly-input:focus, .form-disabled p:focus {
-  border-color: #59C2E6;
-  background-color: #FFF;
+  border-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
   outline: 0;
 }
 
@@ -239,7 +239,7 @@ textarea.form-control, textarea.readonly-input {
 .readonly-input {
   height: auto;
   min-height: 33px;
-  background-color: #eee !important;
+  background-color: rgba(238, 238, 238, 0.09) !important;
 }
 .readonly-input label {
   padding: 0 !important;
@@ -921,8 +921,8 @@ textarea.form-control, textarea.readonly-input {
   border-top-width: 0;
   border-bottom-width: 2px;
   border-style: solid;
-  border-color: #DDD;
-  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .mx-datagrid .mx-datagrid-head-table .mx-datagrid-head-wrapper {
   padding: 8px 8px 8px 8px;
@@ -938,11 +938,11 @@ textarea.form-control, textarea.readonly-input {
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td {
   padding: 8px 8px 8px 8px;
-  background-color: #FFF;
+  background-color: transparent;
   border-width: 0;
   border-top-width: 1px;
   border-top-style: solid;
-  border-color: #DDD;
+  border-color: rgba(255, 255, 255, 0.15);
   /* Text without spaces */
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td:focus {
@@ -961,7 +961,7 @@ textarea.form-control, textarea.readonly-input {
   border-width: 0;
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-foot > tr > td {
-  background-color: #FFF;
+  background-color: transparent;
   border-width: 0;
 }
 .mx-datagrid .mx-datagrid-body-table *:focus {
@@ -983,7 +983,7 @@ textarea.form-control, textarea.readonly-input {
   border-top-width: 0;
 }
 .datagrid-striped.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr:nth-child(odd) td {
-  background-color: #eaeaea;
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 /* ==========================================================================
@@ -992,14 +992,14 @@ textarea.form-control, textarea.readonly-input {
    Default Mendix Datagrid Widget with borders
 ========================================================================== */
 .datagrid-bordered.mx-datagrid .mx-datagrid-head-table th {
-  border: 1px solid #DDD;
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-bottom-width: 1px;
 }
 .datagrid-bordered.mx-datagrid .mx-datagrid-body-table {
   border: 1px solid;
 }
 .datagrid-bordered.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td {
-  border: 1px solid #DDD;
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 .datagrid-bordered.mx-datagrid .mx-datagrid-foot > tr > th {
   padding: 1px;
@@ -1016,10 +1016,10 @@ textarea.form-control, textarea.readonly-input {
    Default Mendix Datagrid Widget with hover
 ========================================================================== */
 .datagrid-hover.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr:hover td, .mx-datagrid.multilevel-grid .mx-datagrid-body-table .mx-datagrid-body tr:hover td {
-  background-color: #d7ecf3 !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
 }
 .datagrid-hover.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td, .mx-datagrid.multilevel-grid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td {
-  background-color: #d7ecf3 !important;
+  background-color: rgba(45, 178, 223, 0.6) !important;
 }
 
 /* ==========================================================================
@@ -1668,7 +1668,7 @@ textarea.form-control, textarea.readonly-input {
 }
 
 .form-disabled p {
-  background-color: #eee !important;
+  background-color: rgba(238, 238, 238, 0.09) !important;
 }
 
 .padding-bottom-none {
@@ -1825,20 +1825,20 @@ img.img-auto,
   margin: 0;
 }
 .mx-listview .mx-listview-item {
-  background-color: #FFF;
+  background-color: transparent;
   padding: 10px 0;
 }
 .mx-listview .mx-listview-item:hover {
-  background-color: #FFF;
+  background-color: transparent;
 }
 .mx-listview .mx-listview-item.selected {
   background-color: #59C2E6 !important;
 }
 .mx-listview .mx-listview-item.selected:hover {
-  background-color: #d7ecf3 !important;
+  background-color: rgba(45, 178, 223, 0.6) !important;
 }
 .mx-listview .mx-listview-item:nth-child(2n+1) {
-  background-color: #FFF;
+  background-color: transparent;
 }
 .mx-listview .mx-layoutgrid {
   padding-top: 0 !important;
@@ -1851,7 +1851,7 @@ img.img-auto,
    Default Mendix Listview Widget with hover
 ========================================================================== */
 .listview-hover.mx-listview .mx-listview-item:hover, .mx-listview.multilevel-list .mx-listview-item:hover, .listview-hover.mx-listview .mx-listview-item:active, .mx-listview.multilevel-list .mx-listview-item:active {
-  background-color: #d7ecf3 !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 /* ==========================================================================
@@ -1860,7 +1860,7 @@ img.img-auto,
    Default Mendix Listview Widget with only border bottom in listview item
 ========================================================================== */
 .listview-lined.mx-listview .mx-listview-item, .mx-listview.multilevel-list .mx-listview-item {
-  border-top: 1px solid #DDD;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
   border-right: none;
   border-left: none;
 }
@@ -1869,7 +1869,7 @@ img.img-auto,
 }
 .listview-lined.mx-listview .mx-listview-item:last-child, .mx-listview.multilevel-list .mx-listview-item:last-child {
   border-radius: 0;
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 /* ==========================================================================
@@ -1878,7 +1878,7 @@ img.img-auto,
    Default Mendix Listview Widget with striped listview items
 ========================================================================== */
 .listview-striped.mx-listview .mx-listview-item:nth-child(2n+1) {
-  background-color: #eaeaea;
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 /* ==========================================================================
@@ -2579,7 +2579,7 @@ table.table-lined.mx-table > tbody > tr > th,
 table.table-lined.mx-table > tbody > tr > td {
   border-width: 1px 0;
   border-style: solid;
-  border-color: #DDD;
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 /* ==========================================================================
@@ -2591,7 +2591,7 @@ table.table-bordered.mx-table > tbody > tr > th,
 table.table-bordered.mx-table > tbody > tr > td {
   border-width: 1px;
   border-style: solid;
-  border-color: #DDD;
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 /* ==========================================================================
@@ -2719,7 +2719,7 @@ table.table-fixed {
   display: none;
 }
 .mx-templategrid .mx-templategrid-item {
-  background-color: #FFF;
+  background-color: transparent;
   padding: 8px 8px 8px 8px;
   cursor: default;
 }
@@ -2740,13 +2740,13 @@ table.table-fixed {
    Default Mendix Templategrid Widget Hover
 ========================================================================== */
 .templategrid-hover.mx-templategrid .mx-templategrid-item:hover {
-  background-color: #d7ecf3 !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
 }
 .templategrid-hover.mx-templategrid .mx-templategrid-item.selected {
   background-color: #59C2E6 !important;
 }
 .templategrid-hover.mx-templategrid .mx-templategrid-item.selected:hover {
-  background-color: #d7ecf3 !important;
+  background-color: rgba(45, 178, 223, 0.6) !important;
 }
 
 /* ==========================================================================
@@ -2765,14 +2765,14 @@ table.table-fixed {
 ========================================================================== */
 .templategrid-lined.mx-templategrid .mx-grid-content {
   border-top-style: solid;
-  border-top-color: #DDD;
+  border-top-color: rgba(255, 255, 255, 0.15);
   border-top-width: 2px;
 }
 .templategrid-lined.mx-templategrid .mx-templategrid-item {
   border-left: none;
   border-right: none;
-  border-top: 1px solid #DDD;
-  border-bottom: 1px solid #DDD;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 /* ==========================================================================

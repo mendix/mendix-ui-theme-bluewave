@@ -83,10 +83,8 @@ a:hover {
   /* Styles here */
 }
 .mx-datagrid .mx-datagrid-head-table th {
-  background: rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
   border-bottom-width: 0px;
-  border-color: rgba(255, 255, 255, 0.15);
 }
 .mx-datagrid .mx-datagrid-head-table .mx-datagrid-head-wrapper {
   /* Styles here */
@@ -99,11 +97,8 @@ a:hover {
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr {
   background-color: transparent;
-  border-color: rgba(255, 255, 255, 0.15);
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td {
-  background-color: transparent;
-  border-color: rgba(255, 255, 255, 0.15);
   /* Text without spaces */
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-foot {
@@ -118,9 +113,6 @@ a:hover {
 .datagrid-striped.mx-datagrid .mx-datagrid-body-table {
   /* Body */
 }
-.datagrid-striped.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr:nth-child(odd) td {
-  background-color: rgba(255, 255, 255, 0.15);
-}
 
 /* ==========================================================================
    Datagrid Bordered
@@ -133,11 +125,9 @@ a:hover {
    Default Mendix Datagrid Widget with hover
 ========================================================================== */
 .datagrid-hover.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr:hover td {
-  background-color: rgba(0, 0, 0, 0.3) !important;
   color: #FFF;
 }
 .datagrid-hover.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected td, .datagrid-hover.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td {
-  background-color: rgba(45, 178, 223, 0.6) !important;
   color: #FFF;
 }
 
@@ -220,28 +210,16 @@ a:hover {
 /* ==========================================================================
    Inputs
 ========================================================================== */
-.form-control {
-  background-color: rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: #FFF;
-}
-
 textarea.form-control {
   /* Styles here */
 }
 
 .form-control:focus {
-  background-color: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 255, 255, 0.6);
 }
 
 .mx-textarea label {
   /* Styles here */
-}
-
-.disabled-input label {
-  background-color: rgba(238, 238, 238, 0.09) !important;
 }
 
 /* ==========================================================================
