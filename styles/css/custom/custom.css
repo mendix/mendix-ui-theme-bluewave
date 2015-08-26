@@ -429,7 +429,6 @@ textarea.form-control {
    Default Mendix Navigation Tree
 ========================================================================== */
 .mx-menubar {
-  background: rgba(0, 0, 0, 0.3);
   /* Two menu items */
   /* Three menu items */
   /* Four menu items */
@@ -443,12 +442,6 @@ textarea.form-control {
 }
 .mx-menubar ul.mx-menubar-list li.mx-menubar-item a {
   /* Styles here */
-}
-.mx-menubar ul.mx-menubar-list li.mx-menubar-item:hover a, .mx-menubar ul.mx-menubar-list li.mx-menubar-item:focus a, .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-.mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* Vertical variation specifics */

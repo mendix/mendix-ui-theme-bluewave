@@ -151,7 +151,7 @@
    Default Mendix Navigation Tree
 ========================================================================== */
 .mx-menubar {
-	background: rgba(0,0,0,0.3);
+	
 	ul.mx-menubar-list {
 		/* Styles here */
 		li.mx-menubar-item {
@@ -162,11 +162,11 @@
 			&:hover a,
 			&:focus a,
 			&.active a {
-				background-color: rgba(0,0,0,0.2);
+				//background-color: rgba(0,0,0,0.2);
 	
 			}
 			&.active a {
-				background-color: rgba(0,0,0,0.2);
+				//background-color: rgba(0,0,0,0.2);
 	        }
 		}
 	}
