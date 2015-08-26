@@ -56,10 +56,14 @@
 	}
 }
 
-.region-sidebar {
+.region-sidebar,
+.region-sidebar-fixed {
 	border-right: 1px solid $color-text-white-hint;
 	> .mx-layoutcontainer-wrapper {
 		/* Styles here */
+	}
+	.mx-navigationtree .navbar-inner ul li a {
+		background: transparent;
 	}
 }
 .region-content {

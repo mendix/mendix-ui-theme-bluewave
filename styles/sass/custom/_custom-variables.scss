@@ -403,9 +403,9 @@ $color-navsidebar-text-hover:			$color-primary;
 $color-navsidebar-text-active:			$color-primary;
 
 $color-navsidebar-sub-bg: 				darken($color-navsidebar-bg, 4);
-$color-navsidebar-sub-bg-hover:			$color-navsidebar-sub-bg;
-$color-navsidebar-sub-bg-active:		$color-navsidebar-sub-bg;
-$color-navsidebar-sub-text:				#AAA;
+$color-navsidebar-sub-bg-hover:			rgba(0, 0, 0, 0.3);//$color-navsidebar-sub-bg;
+$color-navsidebar-sub-bg-active:		rgba(0, 0, 0, 0.3);//$color-navsidebar-sub-bg;
+$color-navsidebar-sub-text:				$color-text-white;//#AAA;
 $color-navsidebar-sub-text-hover:		$color-primary;
 $color-navsidebar-sub-text-active:		$color-primary;
 

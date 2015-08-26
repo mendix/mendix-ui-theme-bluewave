@@ -93,7 +93,7 @@
 			/* Navigation item */
 			a {
 				border-bottom: 1px solid $color-text-white-hint;
-				background-color: transparent;
+				
 
 				.caret {
 					/* Styles here */
@@ -107,7 +107,7 @@
 			a:hover,
 			a:focus,
 			a.active {
-				background: rgba(0, 0, 0, 0.3);
+				
 				.caret {
 					/* Styles here */
 				}
@@ -126,17 +126,16 @@
 			li {
 				/* Sub navigation item */
 				a {
-					background: rgba(0, 0, 0, 0.3);
-					color: $color-text-white;
+					
 
 					&:hover,
 					&:focus,
 					&.active {
-						background: rgba(0, 0, 0, 0.3);
+						
 
 					}
 					&.active {
-						/* Styles here */
+						
 		            }
 				}
 			}

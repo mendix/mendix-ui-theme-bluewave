@@ -388,15 +388,9 @@ textarea.form-control {
 }
 .mx-navigationtree .navbar-inner ul li a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: transparent;
 }
 .mx-navigationtree .navbar-inner ul li a .caret {
   /* Styles here */
-}
-.mx-navigationtree .navbar-inner ul li a:hover,
-.mx-navigationtree .navbar-inner ul li a:focus,
-.mx-navigationtree .navbar-inner ul li a.active {
-  background: rgba(0, 0, 0, 0.3);
 }
 .mx-navigationtree .navbar-inner ul li a:hover .caret,
 .mx-navigationtree .navbar-inner ul li a:focus .caret,
@@ -411,16 +405,6 @@ textarea.form-control {
 }
 .mx-navigationtree li.mx-navigationtree-has-items > ul li {
   /* Sub navigation item */
-}
-.mx-navigationtree li.mx-navigationtree-has-items > ul li a {
-  background: rgba(0, 0, 0, 0.3);
-  color: #FFF;
-}
-.mx-navigationtree li.mx-navigationtree-has-items > ul li a:hover, .mx-navigationtree li.mx-navigationtree-has-items > ul li a:focus, .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
-  background: rgba(0, 0, 0, 0.3);
-}
-.mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
-  /* Styles here */
 }
 
 /* ==========================================================================
@@ -799,11 +783,17 @@ h1, h2, h3, h4, h5, h6,
   margin-right: 10px;
 }
 
-.region-sidebar {
+.region-sidebar,
+.region-sidebar-fixed {
   border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
-.region-sidebar > .mx-layoutcontainer-wrapper {
+.region-sidebar > .mx-layoutcontainer-wrapper,
+.region-sidebar-fixed > .mx-layoutcontainer-wrapper {
   /* Styles here */
+}
+.region-sidebar .mx-navigationtree .navbar-inner ul li a,
+.region-sidebar-fixed .mx-navigationtree .navbar-inner ul li a {
+  background: transparent;
 }
 
 /* ==========================================================================
