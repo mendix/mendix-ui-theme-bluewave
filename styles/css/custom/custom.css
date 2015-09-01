@@ -956,7 +956,7 @@ body .mx-header .mx-title {
   padding-bottom: 20px;
 }
 .page-tabs .tabsfullwidth {
-  background-color: #EFF4F7;
+  background-color: transparent;
 }
 
 .page-tabs-default {

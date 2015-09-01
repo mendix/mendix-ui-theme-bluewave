@@ -3230,7 +3230,7 @@ h1, h2, h3, h4, h5, h6,
    Master Detail Listview
 ========================================================================== */
 .masterdetail-listview {
-  background-color: #EFF4F7;
+  background-color: transparent;
   height: 100%;
 }
 .masterdetail-listview .mx-listview {
@@ -3345,7 +3345,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .pageheader.pageheader-fullwidth {
-  background-color: #EFF4F7;
+  background-color: transparent;
   border-bottom: 1px solid #DDD;
   margin-bottom: 0;
 }
@@ -3498,7 +3498,7 @@ h1, h2, h3, h4, h5, h6,
    Tabs full width
 ========================================================================== */
 .tabsfullwidth {
-  background-color: #EFF4F7;
+  background-color: transparent;
 }
 .tabsfullwidth > .mx-tabcontainer-tabs {
   margin-bottom: 0;
