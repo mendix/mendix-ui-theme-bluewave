@@ -65,6 +65,9 @@
 	.mx-navigationtree .navbar-inner ul li a {
 		background: transparent;
 	}
+	&.mx-scrollcontainer-toggleable {
+		background-color: $color-inverse;
+	}
 }
 .region-content {
 	> .mx-layoutcontainer-wrapper {

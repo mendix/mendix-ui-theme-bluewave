@@ -795,6 +795,10 @@ h1, h2, h3, h4, h5, h6,
 .region-sidebar-fixed .mx-navigationtree .navbar-inner ul li a {
   background: transparent;
 }
+.region-sidebar.mx-scrollcontainer-toggleable,
+.region-sidebar-fixed.mx-scrollcontainer-toggleable {
+  background-color: #000;
+}
 
 /* ==========================================================================
    Navbar Brand
