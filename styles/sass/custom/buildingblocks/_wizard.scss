@@ -15,16 +15,16 @@
 }
 .wizard-step-number {
 	color: $gray;
-  	border: 2px solid $color-text-white;
-  	background-color: $color-text-white;
+  	border: 2px solid #FFF;
+  	background-color: #FFF;
 }
 .wizard-step-number-active {
-	color: $color-text-white;
-  	border-color: $color-primary;
-  	background-color: $color-primary;
+	color: #FFF;
+  	border-color: $brand-primary;
+  	background-color: $brand-primary;
 }
 .wizard-step-number-visited {
-	color: $color-text-white;
+	color: #FFF;
   	border-color: $color-primary-light;
   	background-color: $color-primary-light;
 }

@@ -12,7 +12,7 @@
 		}
 	}
 	> .mx-groupbox-body {
-		background-color: $color-groupbox-white;
+		background-color: $groupbox-white-bg;
 		border: none;
   	}
   	.mx-groupbox-header + .mx-groupbox-body {
@@ -47,7 +47,7 @@
 			color: $color-info-dark;
 		}
 		> .mx-groupbox-header {
-			color: $color-callout-info;
+			color: $callout-info-color;
 		}
 	}
 	&.groupbox-callout-success {
@@ -56,7 +56,7 @@
 			color: $color-success-dark;
 		}
 		> .mx-groupbox-header {
-			color: $color-callout-success;
+			color: $callout-success-color;
 		}
 	}
 	&.groupbox-callout-warning {
@@ -65,7 +65,7 @@
 			color: $color-warning-dark;
 		}
 		> .mx-groupbox-header {
-			color: $color-callout-warning;
+			color: $callout-warning-color;
 		}
 	}
 	&.groupbox-callout-danger {
@@ -74,7 +74,7 @@
 			color: $color-danger-dark;
 		}
 		> .mx-groupbox-header {
-			color: $color-callout-danger;
+			color: $callout-danger-color;
 		}
 	}
 }
