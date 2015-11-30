@@ -16,7 +16,7 @@
 		&.selected {
 			
 			&:hover {
-				background-color: $color-primary !important;	
+				background-color: $brand-primary !important;	
 			}
 		}
 	}
@@ -32,15 +32,15 @@
 	.mx-templategrid-item {
 		
 		&:hover {
-			background-color: rgba(0, 0, 0, 0.3)!important;
+			background-color: rgba(0, 0, 0, 0.3) !important;
 			color: #fff;
 		}
 		&.selected {
-			background-color: rgba(45, 178, 223, 0.6)!important;
+			background-color: rgba(45, 178, 223, 0.6) !important;
 			color: #fff;
 
 			&:hover {
-				background-color: rgba(45, 178, 223, 0.6)!important;
+				background-color: rgba(45, 178, 223, 0.6) !important;
 			}
 		}
 	}
@@ -96,7 +96,7 @@
 ========================================================================== */
 .templategrid-striped.mx-templategrid {
 	.mx-templategrid-row:nth-child(odd) .mx-templategrid-item {
-		background-color: rgba(45, 178, 223, 0.6)!important ;
+		background-color: rgba(45, 178, 223, 0.6) !important;
 	}
 }
 

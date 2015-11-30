@@ -21,37 +21,22 @@
 
 	.toggle-btn {
 		border-color: #FFF;
-		color: $color-text-white;
+		color: #FFF;
 	}
 
 	// SSO widgets
 	.navbar-right {
-		min-height: $minimalheight-topbar;
 		.mx-appswitcher-button-placeholder,
 		.mx-profilemenu-button-placeholder {
-			display: inline-block;
-			border-left: 1px solid $color-text-white-hint;
-			width: $minimalheight-topbar;
-			height: $minimalheight-topbar;
-			position: relative;
-			float: left;
 			iframe {
-				width: 48px;
-				height: 48px;
-
-				position: absolute;
-				top: 0;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				margin: auto auto;
-			}
-			@media (max-width: 768px) {
-				display: none;
+				/* Styles here */
 			}
 		}
 		.mx-profilemenu-button-placeholder {
-			margin-right: 10px;
+			/* Styles here */
+		}
+		@media (max-width: 768px) {
+				
 		}
 	}
 }
@@ -66,7 +51,7 @@
 		background: transparent;
 	}
 	&.mx-scrollcontainer-toggleable {
-		background-color: $color-inverse;
+		background-color: $brand-inverse;
 	}
 }
 .region-content {
@@ -87,11 +72,11 @@
 		/* Styles here */
 	}
 	a {
-		color: $color-text-white;
+		/* Styles here */
 
 		&:hover,
 		&:focus {
-			color: $color-text-white;
+			color: $navbar-brand-name;
 		}
 	}
 }

@@ -7,10 +7,9 @@
 .mx-tabcontainer {
 	/* Styles here */
 	.mx-tabcontainer-tabs {
-		
-
+		/* Styles here */
 		> li > a {
-			color: $color-text-white;
+			color: #FFF;
 
 			&:hover,
 			&:focus {
@@ -26,7 +25,7 @@
 			border: 1px solid $color-text-white-hint;
 			border-bottom-color: transparent;
 			background: rgba(0,0,0,0.1);
-			color: $color-text-white;
+			color: #FFF;
 		}
 	}
 	.mx-tabcontainer-content {
@@ -44,12 +43,12 @@
 	.mx-tabcontainer-tabs {
 
 		> li > a {
-			color: $color-text-white;
+			color: #FFF;
 			border: 1px solid $color-text-white-hint;
 
 			&:hover,
 			&:focus {
-				background-color: $color-tab-bg-active;
+				background-color: $tabs-bg-active;
 			}
 		}
 
@@ -75,11 +74,11 @@
         li {
 
             > a {
-            	color: $color-text-white;
+            	color: #FFF;
 
                 &:hover, 
                 &:focus {
-                	color: $color-primary;
+                	color: $brand-primary;
                 }
             }
 
@@ -105,7 +104,7 @@
 
 			}	
 			> a {
-				color: $color-text-white;
+				color: #FFF;
 				border-bottom: 1px solid $color-text-white-hint;
 			}
 		
@@ -135,6 +134,5 @@
 		border: 1px solid $color-text-white-hint;
 		background: rgba(0,0,0,0.1);
 		border-top: none;
-
 	}
 }

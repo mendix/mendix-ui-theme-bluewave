@@ -210,7 +210,7 @@ div[tabindex] {
 
 .form-control:focus, .readonly-input:focus, .form-disabled p:focus {
   border-color: rgba(255, 255, 255, 0.3);
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   outline: 0;
 }
 
@@ -271,7 +271,7 @@ textarea.form-control, textarea.readonly-input {
   cursor: pointer;
 }
 .mx-fileinput .mx-wrapped-form .mx-fileinput-upload-button:hover {
-  background-color: #DDD;
+  background-color: #DDDDDD;
 }
 
 /* ==========================================================================
@@ -329,11 +329,11 @@ textarea.form-control, textarea.readonly-input {
 }
 
 .background-layout-secondary {
-  background-color: #FFF !important;
+  background-color: transparent !important;
 }
 
 .background-default {
-  background-color: #DDD !important;
+  background-color: #DDDDDD !important;
 }
 
 .background-default-darker {
@@ -502,11 +502,10 @@ textarea.form-control, textarea.readonly-input {
   border-radius: 4px;
   box-shadow: none;
   padding: 8px 14px;
-  background-color: #DDD;
+  background-color: #DDDDDD;
   color: #000;
   text-shadow: none;
   font-size: 12px;
-  text-transform: uppercase;
   line-height: 1.42857;
 }
 .btn:hover, .btn:focus, .btn:active,
@@ -538,8 +537,8 @@ textarea.form-control, textarea.readonly-input {
 }
 
 .btn-default {
-  border-color: #DDD;
-  background-color: #DDD;
+  border-color: #DDDDDD;
+  background-color: #DDDDDD;
   color: #000;
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
@@ -551,16 +550,16 @@ textarea.form-control, textarea.readonly-input {
   background-image: none;
 }
 .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
-  border-color: #DDD;
-  background-color: #DDD;
+  border-color: #DDDDDD;
+  background-color: #DDDDDD;
 }
 .btn-default.btn-bordered {
   background-color: transparent;
-  color: #DDD;
+  color: #DDDDDD;
 }
 .btn-default.btn-bordered:hover, .btn-default.btn-bordered:focus, .btn-default.btn-bordered:active, .btn-default.btn-bordered.active, .open > .btn-default.btn-bordered.dropdown-toggle {
-  background-color: #DDD;
-  border-color: #DDD;
+  background-color: #DDDDDD;
+  border-color: #DDDDDD;
   color: #000;
 }
 
@@ -730,33 +729,6 @@ textarea.form-control, textarea.readonly-input {
   color: #FFF;
 }
 
-.btn-white {
-  border-color: #FFF;
-  background-color: #FFF;
-  color: #000;
-}
-.btn-white:hover, .btn-white:focus, .btn-white:active, .btn-white.active, .open > .btn-white.dropdown-toggle {
-  border-color: #e6e6e6;
-  background-color: #e6e6e6;
-  color: #000;
-}
-.btn-white:active, .btn-white.active, .open > .btn-white.dropdown-toggle {
-  background-image: none;
-}
-.btn-white.disabled, .btn-white.disabled:hover, .btn-white.disabled:focus, .btn-white.disabled:active, .btn-white.disabled.active, .btn-white[disabled], .btn-white[disabled]:hover, .btn-white[disabled]:focus, .btn-white[disabled]:active, .btn-white[disabled].active, fieldset[disabled] .btn-white, fieldset[disabled] .btn-white:hover, fieldset[disabled] .btn-white:focus, fieldset[disabled] .btn-white:active, fieldset[disabled] .btn-white.active {
-  border-color: #FFF;
-  background-color: #FFF;
-}
-.btn-white.btn-bordered {
-  background-color: transparent;
-  color: #FFF;
-}
-.btn-white.btn-bordered:hover, .btn-white.btn-bordered:focus, .btn-white.btn-bordered:active, .btn-white.btn-bordered.active, .open > .btn-white.btn-bordered.dropdown-toggle {
-  background-color: #FFF;
-  border-color: #FFF;
-  color: #000;
-}
-
 .btn-link {
   border: 0;
   background-color: transparent;
@@ -843,7 +815,7 @@ textarea.form-control, textarea.readonly-input {
 /* ==========================================================================
    Grid
 
-   Default Mendix Grid
+   Default Mendix Grid (used for Mendix Datagrid)
 ========================================================================== */
 .mx-grid {
   border-radius: 0;
@@ -921,8 +893,8 @@ textarea.form-control, textarea.readonly-input {
   border-top-width: 0;
   border-bottom-width: 2px;
   border-style: solid;
-  border-color: rgba(255, 255, 255, 0.15);
-  background-color: rgba(0, 0, 0, 0.3);
+  border-color: #DDD;
+  background-color: transparent;
 }
 .mx-datagrid .mx-datagrid-head-table .mx-datagrid-head-wrapper {
   padding: 8px 8px 8px 8px;
@@ -942,7 +914,7 @@ textarea.form-control, textarea.readonly-input {
   border-width: 0;
   border-top-width: 1px;
   border-top-style: solid;
-  border-color: rgba(255, 255, 255, 0.15);
+  border-color: #DDD;
   /* Text without spaces */
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td:focus {
@@ -983,7 +955,7 @@ textarea.form-control, textarea.readonly-input {
   border-top-width: 0;
 }
 .datagrid-striped.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr:nth-child(odd) td {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: #eaeaea;
 }
 
 /* ==========================================================================
@@ -992,14 +964,14 @@ textarea.form-control, textarea.readonly-input {
    Default Mendix Datagrid Widget with borders
 ========================================================================== */
 .datagrid-bordered.mx-datagrid .mx-datagrid-head-table th {
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid #DDD;
   border-bottom-width: 1px;
 }
 .datagrid-bordered.mx-datagrid .mx-datagrid-body-table {
   border: 1px solid;
 }
 .datagrid-bordered.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td {
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid #DDD;
 }
 .datagrid-bordered.mx-datagrid .mx-datagrid-foot > tr > th {
   padding: 1px;
@@ -1016,10 +988,10 @@ textarea.form-control, textarea.readonly-input {
    Default Mendix Datagrid Widget with hover
 ========================================================================== */
 .datagrid-hover.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr:hover td, .mx-datagrid.multilevel-grid .mx-datagrid-body-table .mx-datagrid-body tr:hover td {
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-color: #d7ecf3 !important;
 }
 .datagrid-hover.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td, .mx-datagrid.multilevel-grid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td {
-  background-color: rgba(45, 178, 223, 0.6) !important;
+  background-color: #d7ecf3 !important;
 }
 
 /* ==========================================================================
@@ -1392,12 +1364,12 @@ textarea.form-control, textarea.readonly-input {
   font-weight: bold;
   border-radius: 0;
   margin: 0;
-  background: #DDD;
-  color: #0a0a0a;
+  background: #DDDDDD;
+  color: #000;
   font-size: 16px;
   border-style: solid;
   border-width: 1px 1px 0 1px;
-  border-color: #DDD;
+  border-color: #DDDDDD;
 }
 .mx-groupbox > .mx-groupbox-header .mx-groupbox-collapse-icon {
   margin-top: 0.1em;
@@ -1405,7 +1377,7 @@ textarea.form-control, textarea.readonly-input {
 .mx-groupbox > .mx-groupbox-body {
   border-radius: 0;
   padding: 10px 15px;
-  border-color: #DDD;
+  border-color: #DDDDDD;
   background-color: #FFF;
   border-style: solid;
   border-width: 1px;
@@ -1486,12 +1458,12 @@ textarea.form-control, textarea.readonly-input {
    Groupbox Colors
 ========================================================================== */
 .mx-groupbox.groupbox-default > .mx-groupbox-header {
-  background: #DDD;
-  color: #0a0a0a;
-  border-color: #DDD;
+  background: #DDDDDD;
+  color: #000;
+  border-color: #DDDDDD;
 }
 .mx-groupbox.groupbox-default > .mx-groupbox-body {
-  border-color: #DDD;
+  border-color: #DDDDDD;
 }
 .mx-groupbox.groupbox-primary > .mx-groupbox-header {
   background: #59C2E6;
@@ -1542,12 +1514,12 @@ textarea.form-control, textarea.readonly-input {
   border-color: #D9534F;
 }
 .mx-groupbox.groupbox-white > .mx-groupbox-header {
-  background: rgba(255, 255, 255, 0.3);
-  color: #0a0a0a;
-  border-color: rgba(255, 255, 255, 0.3);
+  background: #FFF;
+  color: #FFF;
+  border-color: #FFF;
 }
 .mx-groupbox.groupbox-white > .mx-groupbox-body {
-  border-color: rgba(255, 255, 255, 0.3);
+  border-color: #FFF;
 }
 .mx-groupbox.groupbox-transparent {
   background-color: transparent;
@@ -1742,7 +1714,7 @@ img.img-thumbnail,
   padding: 4px;
   line-height: 1.42857;
   background-color: #fff;
-  border: 1px solid #DDD;
+  border: 1px solid #DDDDDD;
 }
 
 img.img-circle,
@@ -1778,8 +1750,8 @@ img.img-auto,
 }
 
 .label-default {
-  background-color: #DDD;
-  color: #0a0a0a;
+  background-color: #DDDDDD;
+  color: #FFF;
 }
 
 .label-primary {
@@ -1839,7 +1811,7 @@ img.img-auto,
   background-color: #59C2E6 !important;
 }
 .mx-listview .mx-listview-item.selected:hover {
-  background-color: rgba(45, 178, 223, 0.6) !important;
+  background-color: #d7ecf3 !important;
 }
 .mx-listview .mx-listview-item:nth-child(2n+1) {
   background-color: transparent;
@@ -1855,7 +1827,7 @@ img.img-auto,
    Default Mendix Listview Widget with hover
 ========================================================================== */
 .listview-hover.mx-listview .mx-listview-item:hover, .mx-listview.multilevel-list .mx-listview-item:hover, .listview-hover.mx-listview .mx-listview-item:active, .mx-listview.multilevel-list .mx-listview-item:active {
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-color: #d7ecf3 !important;
 }
 
 /* ==========================================================================
@@ -1864,7 +1836,7 @@ img.img-auto,
    Default Mendix Listview Widget with only border bottom in listview item
 ========================================================================== */
 .listview-lined.mx-listview .mx-listview-item, .mx-listview.multilevel-list .mx-listview-item {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 1px solid #DDD;
   border-right: none;
   border-left: none;
 }
@@ -1873,7 +1845,7 @@ img.img-auto,
 }
 .listview-lined.mx-listview .mx-listview-item:last-child, .mx-listview.multilevel-list .mx-listview-item:last-child {
   border-radius: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid #DDD;
 }
 
 /* ==========================================================================
@@ -1882,7 +1854,7 @@ img.img-auto,
    Default Mendix Listview Widget with striped listview items
 ========================================================================== */
 .listview-striped.mx-listview .mx-listview-item:nth-child(2n+1) {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: #eaeaea;
 }
 
 /* ==========================================================================
@@ -2117,7 +2089,7 @@ img.img-auto,
     font-weight: normal;
     padding: 10px 20px;
     border-radius: 0;
-    color: #0a0a0a;
+    color: #AAA;
     font-size: 12px;
   }
   .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:hover, .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:focus {
@@ -2546,7 +2518,7 @@ table.mx-table > tbody > tr > th {
 table.mx-table > tbody > tr > th * {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  color: #0a0a0a;
+  color: #666;
   font-weight: normal;
 }
 table.mx-table > tbody > tr > th > label {
@@ -2583,7 +2555,7 @@ table.table-lined.mx-table > tbody > tr > th,
 table.table-lined.mx-table > tbody > tr > td {
   border-width: 1px 0;
   border-style: solid;
-  border-color: rgba(255, 255, 255, 0.15);
+  border-color: #DDD;
 }
 
 /* ==========================================================================
@@ -2595,7 +2567,7 @@ table.table-bordered.mx-table > tbody > tr > th,
 table.table-bordered.mx-table > tbody > tr > td {
   border-width: 1px;
   border-style: solid;
-  border-color: rgba(255, 255, 255, 0.15);
+  border-color: #DDD;
 }
 
 /* ==========================================================================
@@ -2741,13 +2713,13 @@ table.table-fixed {
    Default Mendix Templategrid Widget Hover
 ========================================================================== */
 .templategrid-hover.mx-templategrid .mx-templategrid-item:hover {
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-color: #d7ecf3 !important;
 }
 .templategrid-hover.mx-templategrid .mx-templategrid-item.selected {
   background-color: #59C2E6 !important;
 }
 .templategrid-hover.mx-templategrid .mx-templategrid-item.selected:hover {
-  background-color: rgba(45, 178, 223, 0.6) !important;
+  background-color: #d7ecf3 !important;
 }
 
 /* ==========================================================================
@@ -2766,14 +2738,14 @@ table.table-fixed {
 ========================================================================== */
 .templategrid-lined.mx-templategrid .mx-grid-content {
   border-top-style: solid;
-  border-top-color: rgba(255, 255, 255, 0.15);
+  border-top-color: #DDD;
   border-top-width: 2px;
 }
 .templategrid-lined.mx-templategrid .mx-templategrid-item {
   border-left: none;
   border-right: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
 }
 
 /* ==========================================================================
@@ -2966,7 +2938,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .text-black-secondary {
-  color: #0a0a0a;
+  color: #666666;
 }
 
 .text-black-disabled {
@@ -3017,6 +2989,233 @@ h1, h2, h3, h4, h5, h6,
 *
 * 
 */
+/* ==========================================================================
+   Special styles for presenting Page Template Dashboard
+========================================================================== */
+.page-dashboard {
+  background-color: transparent;
+}
+.page-dashboard .chartjs-node {
+  margin-top: 30px;
+}
+
+.page-dashboard-default .card {
+  min-height: 345px;
+}
+
+.page-dashboard-mytasks .card {
+  min-height: 320px;
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Form
+========================================================================== */
+.page-form {
+  /* Styles here */
+}
+
+.page-form-default {
+  /* Styles here */
+}
+
+.page-form-imagemap {
+  /* Styles here */
+}
+
+.page-form-tabs {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Master Detail
+========================================================================== */
+.page-masterdetail {
+  /* Styles here */
+}
+
+.page-masterdetail-basic {
+  /* Styles here */
+}
+
+.page-masterdetail-big {
+  /* Styles here */
+}
+
+.page-masterdetail-imagemap {
+  /* Styles here */
+}
+
+.page-masterdetail-multilevel {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Tabs
+========================================================================== */
+.page-tabs {
+  /* Styles here */
+}
+.page-tabs .tabsfullwidth {
+  background-color: transparent;
+}
+
+.page-tabs-default {
+  /* Styles here */
+}
+
+.page-tabs-fullwidth {
+  /* Styles here */
+}
+.page-tabs-fullwidth .pageheader.pageheader-fullwidth {
+  border-style: none;
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Website
+========================================================================== */
+.page-website {
+  /* Styles here */
+}
+
+.page-website-actions {
+  /* Styles here */
+}
+
+.page-website-items {
+  /* Styles here */
+}
+
+.page-website-items-detail {
+  /* Styles here */
+}
+
+.page-website-presentation {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Wizard
+========================================================================== */
+.page-wizard {
+  /* Styles here */
+}
+
+.page-wizard-default {
+  /* Styles here */
+}
+
+.page-wizard-titlecentered {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Phone
+========================================================================== */
+.phone-page-dashboard {
+  background-color: transparent;
+}
+
+.phone-page-dashboard-default {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Phone Form
+========================================================================== */
+.phone-page-form {
+  /* Styles here */
+}
+
+.phone-page-form-default {
+  /* Styles here */
+}
+
+.phone-page-form-edit {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Phone Listview
+========================================================================== */
+.phone-page-listview {
+  /* Styles here */
+}
+
+.phone-page-listview-default {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Phone Wizard
+========================================================================== */
+.phone-page-wizard {
+  /* Styles here */
+}
+
+.phone-page-wizard-default {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Tablet Dashboard
+========================================================================== */
+.tablet-page-dashboard {
+  background-color: transparent;
+}
+
+.tablet-page-dashboard-default {
+  /* Styles here */
+}
+
+.tablet-page-dashboard-big {
+  /* Styles here */
+}
+
+.tablet-page-dashboard-mytasks {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Tablet Form
+========================================================================== */
+.tablet-page-form {
+  /* Styles here */
+}
+
+.tablet-page-form-default {
+  /* Styles here */
+}
+
+.tablet-page-form-edit {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Tablet Master Detail
+========================================================================== */
+.tablet-page-masterdetail {
+  /* Styles here */
+}
+
+.tablet-page-masterdetail-default {
+  /* Styles here */
+}
+
+.tablet-page-masterdetail-leftright {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Tablet Wizard
+========================================================================== */
+.tablet-page-wizard {
+  /* Styles here */
+}
+
+.tablet-page-wizard-default {
+  /* Styles here */
+}
+
 /* ==========================================================================
    Action Block
 ========================================================================== */
@@ -3088,7 +3287,7 @@ h1, h2, h3, h4, h5, h6,
 
 .card-subtitle {
   font-size: 14px;
-  color: #0a0a0a;
+  color: #666666;
   margin-bottom: 10px;
 }
 
@@ -3151,7 +3350,7 @@ h1, h2, h3, h4, h5, h6,
 
 .dashboardcard-subtitle {
   font-size: 14px;
-  color: #0a0a0a;
+  color: #666666;
   margin-bottom: 10px;
 }
 
@@ -3220,11 +3419,11 @@ h1, h2, h3, h4, h5, h6,
 /* ==========================================================================
    Form
 
-   To extend the default form
+   To extend the default Bootstrap form
 ========================================================================== */
 .form-group .control-label {
   margin-bottom: 5px;
-  color: #0a0a0a;
+  color: #666;
   font-weight: normal;
 }
 
@@ -3306,6 +3505,10 @@ h1, h2, h3, h4, h5, h6,
   background-color: #eee !important;
 }
 
+.multilevel-title label {
+  font-weight: bold;
+}
+
 .multilevel-subtitle {
   color: #555;
 }
@@ -3333,9 +3536,9 @@ h1, h2, h3, h4, h5, h6,
   border-style: none;
 }
 .multilevel-grid .mx-datagrid-body-table {
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #DDD;
+  border-right: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
 }
 .multilevel-grid .mx-datagrid-body-table .mx-datagrid-body tr td {
   border-color: #eee;
@@ -3383,7 +3586,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .pageheader-subtitle {
-  color: #0a0a0a;
+  color: #666666;
 }
 
 /* ==========================================================================
@@ -3401,7 +3604,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sectionheader-subtitle {
-  color: #0a0a0a;
+  color: #666666;
   margin-bottom: 10px;
 }
 
@@ -3458,7 +3661,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .profilecard-subtitle {
-  color: #0a0a0a;
+  color: #666666;
 }
 
 .pageheader .profilecard {
@@ -3495,7 +3698,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .product-subtitle {
-  color: #0a0a0a;
+  color: #666666;
 }
 
 .product-btn {
@@ -3518,7 +3721,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sidebarheader-subtitle {
-  color: #0a0a0a;
+  color: #666666;
 }
 
 /* ==========================================================================
@@ -3724,7 +3927,7 @@ h1, h2, h3, h4, h5, h6,
   margin-top: 0;
 }
 .templategrid-profilecard .templategrid-profilecard-subtitle {
-  color: #0a0a0a;
+  color: #666666;
 }
 
 /* ==========================================================================
@@ -4240,13 +4443,14 @@ body[dir="ltr"] .mx-header-right {
 /* ==========================================================================
    Navbar Brand
 
-   Used to style your app brand and logo
+   For your company, product, or project name
 ========================================================================== */
 .navbar-brand {
   display: block;
   min-height: 80px;
   float: left;
-  padding: 22px 0;
+  padding: 0;
+  line-height: 80px;
 }
 .navbar-brand img {
   height: 37px;
@@ -4254,7 +4458,7 @@ body[dir="ltr"] .mx-header-right {
 }
 .navbar-brand a {
   font-size: 20px;
-  color: #000;
+  color: #FFF;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;

@@ -27,7 +27,7 @@
 				border-radius: 0;
 			}
   			&.selected {
-  				border-left: 4px solid $color-primary;
+  				border-left: 4px solid $brand-primary;
   				background-color: rgba(45, 178, 223, 0.6) !important;
   			}
   		}
@@ -37,10 +37,10 @@
 
 }
 .multilevel-subtitle {
-	color: $color-text-white;
+	color: #FFF;
 }
 .multilevel-message-header {
-	color: $color-text-white;
+	color: #FFF;
 	margin-bottom: 10px;
 	border-bottom: 1px solid $color-text-white-hint;
 }
@@ -76,7 +76,7 @@
 			}
 			&.selected td,
 			&.selected:hover td {
-				border-left: 4px solid $color-primary;
+				border-left: 4px solid $brand-primary;
 				background-color: $gray-lighter !important;
 			}
 		}
