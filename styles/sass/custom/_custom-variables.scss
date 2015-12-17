@@ -62,11 +62,14 @@ $link-hover-color:                      darken($link-color, 15%);
 //== Typography
 //## Change your font family, weight, line-height, headings and more (used in components/typography)
 
+// Google Fonts - Open Sans
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
 // Font Family / False = fallback from Bootstrap (Helvetica Neue)
-$font-family-base:                      'Roboto', sans-serif; //false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-light:                     'Roboto', sans-serif; //false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-semibold:                  'Roboto', sans-serif; //false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-bold:                      'Roboto', sans-serif; //false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-base:                      'Roboto', sans-serif; //false;
+$font-family-light:                     'Roboto', sans-serif; //false;
+$font-family-semibold:                  'Roboto', sans-serif; //false;
+$font-family-bold:                      'Roboto', sans-serif; //false;
 
 // Font Size
 $font-size-large:                       ceil($font-base-size * 1.25); // ~18px
