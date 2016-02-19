@@ -691,7 +691,7 @@ h1, h2, h3, h4, h5, h6,
   /* Styles here */
 }
 .mx-groupbox > .mx-groupbox-body {
-  background-color: #FFF;
+  background-color: rgba(0, 0, 0, 0.3);
   border: none;
 }
 .mx-groupbox .mx-groupbox-header + .mx-groupbox-body {
@@ -699,6 +699,9 @@ h1, h2, h3, h4, h5, h6,
 }
 .mx-groupbox.collapsed > .mx-groupbox-header {
   /* Styles here */
+}
+.mx-groupbox.groupbox-white > .mx-groupbox-header {
+  color: #000;
 }
 
 /* ==========================================================================
