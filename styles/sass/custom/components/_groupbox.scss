@@ -12,7 +12,7 @@
 		}
 	}
 	> .mx-groupbox-body {
-		background-color: $groupbox-white-bg;
+		background-color: rgba(0, 0, 0, 0.3);
 		border: none;
   	}
   	.mx-groupbox-header + .mx-groupbox-body {
@@ -21,6 +21,9 @@
 
 	&.collapsed > .mx-groupbox-header {
 		/* Styles here */
+	}
+	&.groupbox-white > .mx-groupbox-header {
+		color: $brand-inverse;
 	}
 }
 
