@@ -68,7 +68,6 @@ $link-hover-color:                      darken($link-color, 15%);
 
 // Font Family Import / Google Fonts - Roboto
 $font-family-import:                    'https://fonts.googleapis.com/css?family=Roboto';
-@import url($font-family-import);
 
 // Font Family / False = fallback from Bootstrap (Helvetica Neue)
 $font-family-base:                      'Roboto', sans-serif; //false;
