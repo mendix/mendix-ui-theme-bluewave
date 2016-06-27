@@ -5,30 +5,7 @@
 ========================================================================== */
 .profile-phone,
 .profile-tablet {
-	.mx-tabcontainer-tabs {
-		/* Styles here */
-		li {
-			a {
-				/* Styles here */
-				&:hover,
-				&:focus,
-				&.active {
-					border: none;
-				}
-			}
-			&.active a {
-				color: #000;
-  				&:after,
-  				&:before {
-  					
-  				}
-  				&:after {
-  					
-  				}
-  				&:before {
-  					
-  				}
-			}
-		}
-	}
+    .mx-tabcontainer {
+
+    }
 }

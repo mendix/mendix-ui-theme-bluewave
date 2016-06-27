@@ -556,6 +556,19 @@ textarea.form-control {
 }
 
 /* ==========================================================================
+   Tab Container Mobile
+
+   Default Mendix Tab Container Widget rendered for mobile use
+========================================================================== */
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li a:hover, .tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li a:focus {
+  border-style: none;
+}
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li.active a {
+  color: #000;
+  border-style: none;
+}
+
+/* ==========================================================================
    Tables
 
    Default Mendix Table Widget. Tables can be used to lend structure to a page. They contain a number of rows (tr) and columns, the intersection of which is called a cell (td). Each cell can contain widgets
@@ -829,6 +842,10 @@ h1, h2, h3, h4, h5, h6,
   /* Reset Search Button - default hidden */
   /* Search Field */
 }
+.profile-phone .mx-listview .mx-listview-searchbar .mx-listview-search-input input,
+.profile-tablet .mx-listview .mx-listview-searchbar .mx-listview-search-input input {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 
 /* ==========================================================================
    Header
@@ -857,25 +874,6 @@ body .mx-header .mx-title {
 
    Default Mendix Tabcontainer for Mobile 
 ========================================================================== */
-.profile-phone .mx-tabcontainer-tabs,
-.profile-tablet .mx-tabcontainer-tabs {
-  /* Styles here */
-}
-.profile-phone .mx-tabcontainer-tabs li a,
-.profile-tablet .mx-tabcontainer-tabs li a {
-  /* Styles here */
-}
-.profile-phone .mx-tabcontainer-tabs li a:hover, .profile-phone .mx-tabcontainer-tabs li a:focus, .profile-phone .mx-tabcontainer-tabs li a.active,
-.profile-tablet .mx-tabcontainer-tabs li a:hover,
-.profile-tablet .mx-tabcontainer-tabs li a:focus,
-.profile-tablet .mx-tabcontainer-tabs li a.active {
-  border: none;
-}
-.profile-phone .mx-tabcontainer-tabs li.active a,
-.profile-tablet .mx-tabcontainer-tabs li.active a {
-  color: #000;
-}
-
 /* ==========================================================================
    Special styles for presenting Page Template Dashboard
 ========================================================================== */

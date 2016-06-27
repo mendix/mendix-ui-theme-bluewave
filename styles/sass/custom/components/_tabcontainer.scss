@@ -9,7 +9,7 @@
 	.mx-tabcontainer-tabs {
 		/* Styles here */
 		> li > a {
-			color: #FFF;
+			color: $tabs-color;
 
 			&:hover,
 			&:focus {
@@ -25,7 +25,7 @@
 			border: 1px solid $color-text-white-hint;
 			border-bottom-color: transparent;
 			background: rgba(0,0,0,0.1);
-			color: #FFF;
+			color: $tabs-color-active;
 		}
 	}
 	.mx-tabcontainer-content {
@@ -43,7 +43,7 @@
 	.mx-tabcontainer-tabs {
 
 		> li > a {
-			color: #FFF;
+			color: $tabs-color;
 			border: 1px solid $color-text-white-hint;
 
 			&:hover,
@@ -74,7 +74,7 @@
         li {
 
             > a {
-            	color: #FFF;
+            	color: $tabs-color;
 
                 &:hover, 
                 &:focus {
@@ -104,7 +104,7 @@
 
 			}	
 			> a {
-				color: #FFF;
+				color: $tabs-color;
 				border-bottom: 1px solid $color-text-white-hint;
 			}
 		
@@ -135,4 +135,40 @@
 		background: rgba(0,0,0,0.1);
 		border-top: none;
 	}
+}
+
+
+/* ==========================================================================
+   Tab Container Mobile
+
+   Default Mendix Tab Container Widget rendered for mobile use
+========================================================================== */
+.tab-mobile.mx-tabcontainer {
+    .mx-tabcontainer-tabs {
+
+        li {
+
+            a {
+                &:hover,
+                &:focus {
+                    border-style: none;
+                }
+            }
+
+            &.active a {
+                color: #000;
+                border-style: none;
+                &:after,
+                &:before {
+                    
+                }
+                &:after {
+                    
+                }
+                &:before {
+                    
+                }
+            }
+        }
+    }
 }
